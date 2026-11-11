@@ -1,0 +1,19 @@
+name: TOEICMaster990
+options:
+  bundleIdPrefix: com.toeicmaster
+targets:
+  TOEICMaster990:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - TOEICMaster990
+    settings:
+      base:
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.toeicmaster990
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
